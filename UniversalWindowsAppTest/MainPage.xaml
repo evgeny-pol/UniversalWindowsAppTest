@@ -8,7 +8,9 @@
     <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button Name="Button1"
                 Content="Click me!"
+                AutomationProperties.AutomationId="Button1"
                 Click="Button1_Click" />
-        <TextBox Name="TextBox1" />
+        <TextBox Name="TextBox1"
+                 AutomationProperties.AutomationId="TextBox1" />
     </StackPanel>
 </Page>
